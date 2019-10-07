@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stephans's Webpage</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--connects the stylization css file -->
+    <link rel="stylesheet" href="mystylizationforbiography.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- My website Headbar.-->
+    <div id="title" class="jumbotron text-center" style="margin-bottom:0">
+      <h1>Welcome to my webpage</h1>
+      <p id="D1">All about me.</p>
+    </div>
+<!--Navigation bar. -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#"> Navigation</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     <!--The different html files attached to the navigation bar. -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mybiography.html">My Coding Biography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imbeddedvanier.html">My School</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myotherprojects.html">My Other Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!--My unstylized coding biography set with bootstrap to stretch th whole page. -->
+    <div class="col-sm-12">
+      <h2>My Coding Biography</h2>
+
+      <div class="biography"></div>
+      <p id="bioUnstyle">My biography without stylization</p>
+
+      <h3>Short Biography and Experience With Programming</h3>
+      <p>
+        My full name is Stephan David Foster, I enjoy working with computers and
+        I find technology fascinating. I want to have a better understanding of
+        the ongoings behind the technology I use and that is what drew me to the
+        course. I am proficient in mathematics and writing. Organization would
+        be one of my weak points and almost an Achilles heel of mine. I enjoy a
+        good book but also enjoy getting outside, admittedly I spend awhile on
+        computers daily. After this course is finished, I hope to be able to
+        fill those hours spent on a computer with something productive. My
+        experience with programming is limited with common programming
+        languages. However, I spent quite a bit of time using Scratch in
+        elementary and from this experience have a decent grasp on the
+        fundamentals of coding. Like understanding how language in general works
+        without actually speaking that language.
+      </p>
+    </div>
+    <div class="col-sm-12">
+      <!--My stylized coding biography set with bootstrap to stretch th whole page. -->
+      <h2>My biography with sylization</h2>
+      <p id="Title" style="background-color:MediumSeaGreen;" ;>
+        _____Short Biography and Experience With Programming_____
+      </p>
+      <p id="seeThrough" style="background-color:Orange;" ;>
+        My full name is
+        <span id="opacityOne"><strong>Stephan David Foster,</strong></span> I
+        enjoy working with computers and I find technology fascinating.<span
+          id="opacityThree"
+          ><strong
+            >I want to have a better understanding of the ongoings behind the
+            technology I use
+          </strong></span
+        >
+        and that is what drew me to the course. I am proficient in mathematics
+        and writing. Organization would be one of my weak points and almost an
+        Achilles heel of mine. I enjoy a good book but also enjoy getting
+        outside, admittedly I spend awhile on computers daily. After this course
+        is finished,
+        <span id="opacityTwo"
+          ><strong
+            >I hope to be able to fill those hours spent on a computer with
+            something productive.</strong
+          ></span
+        >
+        My experience with programming is limited with common programming
+        languages. However, I spent quite a bit of time using Scratch in
+        elementary and from this experience have a
+        <span id="opacityFour"
+          ><strong>decent grasp on the fundamentals of coding.</strong></span
+        >
+        Like understanding how language in general works without actually
+        speaking that language.
+      </p>
+    </div>
+    <!--Footer with a short note on the contents of the page.-->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>This biography was written for my Gr11 computer science class.</p>
+    </div>
+  </body>
+</html>
